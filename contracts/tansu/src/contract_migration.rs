@@ -8,7 +8,6 @@ pub struct ProjectV1 {
     pub name: String,
     pub config: types::Config,
     pub maintainers: Vec<Address>,
-    pub sub_projects: Option<Vec<Bytes>>,
 }
 
 #[contractimpl]
